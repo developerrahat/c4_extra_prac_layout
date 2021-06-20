@@ -1,0 +1,91 @@
+.header-menu{
+    background: #01031b;
+    text-align: center;
+}
+.header-menu li{
+    display: inline-block;
+}
+.header-menu li a{
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    padding:25px 30px;
+    color: white;
+}
+.header-menu li a:hover{}
+
+.wrapper{
+    overflow: hidden;
+}
+.about-me-left{
+    width: 40%;
+    float: left;
+    border: 2px solid red;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.about-me-left img{
+    width:300px;
+    height: auto;
+}
+.about-me-left h1{}
+.about-me-left p{}
+
+.my-srv-right{
+    width:60%;
+    float: right;  
+    padding: 0 40px ;
+    box-sizing: border-box;
+}
+.b-border{
+    border: 2px solid black;
+    padding: 40px;
+}
+.my-srv-right h1{}
+.my-srv-right ul{
+
+}
+.my-srv-right ul li{}
+
+.ptf-btn{
+    background: #000218;
+    padding: 6px 10px;
+    color: white;
+    border: none;
+    transition: .5s;
+
+}
+.ptf-btn:hover{
+    box-shadow: 1px 6px 10px 6px rgb(0, 2, 22) ;
+    background: aliceblue;
+    color: black;
+
+}
+
+
+.box1{
+    width: 60%;
+    float: left;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 2px solid red;
+
+}
+.box2{
+    width: 40%;
+    float: right;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+
+.layout5{
+    width: 31.33%;
+    min-height: 200px;
+    float: left;
+    border: 2px solid #09e014;
+    margin: 0 1%;
+    box-sizing: border-box;
+    margin-top: 30px;
+    box-shadow: 1px 1px 20px 3px rgb(3, 6, 49, .5);
+}
